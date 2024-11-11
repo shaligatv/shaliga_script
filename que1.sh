@@ -3,8 +3,9 @@ read -p "Enter a first number :" a
 read -p "Enter a second number :" b
 read -p "Enter a operation :" c
 case $c in
+
 Mult)
-        echo "$(( a * b ))"
+       echo "$(( a * b ))"
         ;;
 Add)
         echo "$(( a + b ))"
